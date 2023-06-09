@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "mi_primer_codigo",
+			"path": "../mi_primer_codigo"
+		},
+		{
+			"name": "RETO2",
+			"path": "../RETO2"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../reto3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "reto4"
+	}
+}

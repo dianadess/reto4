@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+.card
+{
+ background-color: rgb(19, 19, 43);
+}
+.card foto img{
+    height: 50%;
+}
