@@ -1,11 +1,91 @@
 *{
     margin: 0;
     pad: 0;
+   
+}
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgb(2, 2, 24);
+   
 }
 .card
 {
  background-color: rgb(19, 19, 43);
+ border-bottom: 20;
+  
 }
-.card foto img{
-    height: 50%;
+.card foto{
+   flex-direction: column; 
+   box-shadow: 10px;
+   }      
+.imagen-principal{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+     margin-left: 30% ;
+     position: relative;
+     margin-block-start: 5px;
+     box-shadow: 10px;
+     border-color: 5px solid rgb(6, 6, 29);
+    
+}
+
+.division2{
+    text-align: center;
+    color: white;
+background-color: rgb(11, 11, 48);
+display: contents;
+padding: 0%;
+
+}
+.text-white{
+    padding: 0%;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    line-height: 2rem;
+    
+}
+.text-gray{
+    color: gray;
+    text-align: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+.contenedor-detalle{
+    white-space: 2px;
+}
+.eth{
+    text-align: left;
+    
+}
+.left{
+    text-align: right;
+    color: hsl(178, 100%, 50%);
+}
+.contenedor-autor{
+    padding-top: 20 20 20 20;
+    background-color: rgb(15, 15, 48);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contenedor-autor img{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    display: flex;
+    
+    
+}
+.autor{
+    padding: 20px;
+    display: flex;
+
+}
+.text-gray{
+    color: gray;
+}
+.text-white{
+    color: white;
 }
